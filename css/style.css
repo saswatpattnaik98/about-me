@@ -87,15 +87,21 @@ body {
     font-size: 0.75rem;
     padding: 20px 0;
   }
+
+  .mountain{
+    max-width: 100%;
+  }
   
   .top-cloud {
     position: absolute;
+    max-width: 100%;
     right: 300px;
     top: 40px;
   }
   
   .bottom-cloud {
     position: absolute;
+    max-width: 100%;
     left: 250px;
     bottom: 300px;
   }
@@ -151,6 +157,7 @@ body {
 
   img{
     border-radius: 10px;
+    margin-right: 10px;
   }
 
   video{
